@@ -224,3 +224,55 @@ button:hover {
 .btn-comprar:hover {
     background-color: #2f855a;
 }
+
+
+/* Estilos específicos para la tabla del panel */
+.container-admin {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+.tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-usuarios th, .tabla-usuarios td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tabla-usuarios th {
+    background-color: #edf2f7;
+    color: #2d3748;
+    font-weight: 600;
+}
+
+.tabla-usuarios tr:hover {
+    background-color: #f7fafc;
+}
+
+.badge-admin {
+    background-color: #feb2b2;
+    color: #9b2c2c;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge-cliente {
+    background-color: #e2e8f0;
+    color: #4a5568;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+    
