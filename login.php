@@ -8,6 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $res = $conexion->query("SELECT * FROM usuarios WHERE usuario='$usr'");
 
+
+    // Registro
     if ($row = $res->fetch_assoc()) {
         if (password_verify($pwd, $row['password'])) {
             $_SESSION['usuario'] = $row['usuario'];
